@@ -45,7 +45,7 @@ export default function RootLayout({
                   Note: Trips are stored locally on your device. Clearing browser data will delete them.
                 </div>
                 <div>
-                  &copy; {new Date().getFullYear()} Vagabond AI. Created with Antigravity. All rights reserved.
+                  &copy; {new Date().getFullYear()} Vagabond AI. Developed by <a href="https://github.com/DevbratPatel" target="_blank" rel="noreferrer" className="text-primary hover:underline font-semibold">Devbrat Patel</a>. All rights reserved.
                 </div>
               </div>
             </footer>

@@ -7,7 +7,7 @@ This guide details the step-by-step instructions to deploy Vagabond AI to **Verc
 ## 1. Prerequisites
 
 Before starting, ensure that:
-1. Your repository is pushed to your GitHub account: `https://github.com/Nishant23042005/ai-trip-planner`.
+1. Your repository is pushed to your GitHub account: `https://github.com/DevbratPatel/ai-trip-planner`.
 2. You have your **OpenAI API Key** ready.
 3. You have your **Google Maps API Key** ready.
 
