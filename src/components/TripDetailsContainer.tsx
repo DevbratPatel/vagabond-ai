@@ -190,7 +190,7 @@ export default function TripDetailsContainer({ trip }: TripDetailsContainerProps
                 onClick={() => {
                   setActiveDay(day.dayNumber);
                 }}
-                className={`flex-shrink-0 px-6 py-3 text-xs font-bold uppercase tracking-wider rounded-2xl transition duration-200 backdrop-blur-md ${
+                className={`flex-shrink-0 px-6 py-3 text-xs font-bold uppercase tracking-wider rounded-2xl transition duration-200 backdrop-blur-md cursor-pointer select-none ${
                   activeDay === day.dayNumber
                     ? "bg-primary text-primary-foreground shadow-md font-extrabold scale-[1.02]"
                     : "bg-card text-foreground-secondary border border-border hover:bg-card-hover hover:scale-[1.02]"

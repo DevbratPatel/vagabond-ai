@@ -75,7 +75,7 @@ export default function DashboardPage() {
         
         <Link
           href="/plan"
-          className="inline-flex items-center justify-center gap-2.5 rounded-2xl bg-primary text-primary-foreground px-6 py-3.5 text-sm font-extrabold shadow-lg shadow-primary/20 hover:scale-[1.03] active:scale-95 transition-all duration-200"
+          className="inline-flex items-center justify-center gap-2.5 rounded-2xl bg-primary text-primary-foreground px-6 py-3.5 text-sm font-extrabold shadow-lg shadow-primary/20 hover:brightness-105 active:scale-[0.98] transition-all duration-150 cursor-pointer select-none"
         >
           <Plus className="h-4.5 w-4.5" />
           Plan New Trip
@@ -95,7 +95,7 @@ export default function DashboardPage() {
           <div className="mt-8">
             <Link
               href="/plan"
-              className="inline-flex items-center gap-2 rounded-2xl bg-accent text-accent-foreground px-7 py-4 text-sm font-extrabold shadow-lg shadow-accent/20 hover:scale-105 transition-all duration-200"
+              className="inline-flex items-center gap-2 rounded-2xl bg-accent text-accent-foreground px-7 py-4 text-sm font-extrabold shadow-lg shadow-accent/20 hover:brightness-105 active:scale-[0.98] transition-all duration-150 cursor-pointer select-none"
             >
               <Sparkles className="h-4.5 w-4.5" />
               Plan Your First Trip

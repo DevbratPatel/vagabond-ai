@@ -44,17 +44,19 @@ export default function LandingPage() {
                 Skip hours of research. Experience a clean, friendly digital travel journal with custom day-by-day itineraries, real landmarks, dining spots, and maps.
               </p>
 
-              <div className="flex flex-wrap gap-4 pt-2">
+              <div className="flex flex-wrap gap-4 pt-2 relative z-20">
                 <Link
                   href="/plan"
-                  className="inline-flex items-center gap-2.5 rounded-2xl bg-accent text-accent-foreground px-8 py-4 text-base font-extrabold shadow-lg shadow-accent/25 hover:scale-[1.02] active:scale-95 transition-all duration-200"
+                  onClick={() => router.push("/plan")}
+                  className="inline-flex items-center gap-2.5 rounded-2xl bg-accent text-accent-foreground px-8 py-4 text-base font-extrabold shadow-lg shadow-accent/25 hover:brightness-105 active:scale-[0.98] transition-all duration-150 cursor-pointer select-none"
                 >
-                  Start Planning Free
+                  Start Journey Free
                   <ChevronRight className="h-5 w-5" />
                 </Link>
                 <Link
                   href="/trips"
-                  className="inline-flex items-center justify-center rounded-2xl border border-border bg-card px-8 py-4 text-base font-bold text-foreground-secondary shadow-md hover:bg-card-hover hover:scale-[1.02] active:scale-95 transition-all duration-200"
+                  onClick={() => router.push("/trips")}
+                  className="inline-flex items-center justify-center rounded-2xl border border-border bg-card px-8 py-4 text-base font-bold text-foreground-secondary shadow-md hover:bg-card-hover hover:border-primary/40 active:scale-[0.98] transition-all duration-150 cursor-pointer select-none"
                 >
                   My Trips
                 </Link>
@@ -221,9 +223,10 @@ export default function LandingPage() {
           </p>
             <Link
               href="/plan"
-              className="inline-flex items-center gap-2.5 rounded-2xl bg-accent text-accent-foreground px-9 py-4.5 text-base font-extrabold shadow-xl shadow-accent/25 hover:scale-105 active:scale-95 transition-all duration-200"
+              onClick={() => router.push("/plan")}
+              className="inline-flex items-center gap-2.5 rounded-2xl bg-accent text-accent-foreground px-9 py-4.5 text-base font-extrabold shadow-xl shadow-accent/25 hover:brightness-105 active:scale-[0.98] transition-all duration-150 cursor-pointer select-none relative z-20"
             >
-              Get Started for Free
+              Start Journey for Free
               <ChevronRight className="h-5 w-5" />
             </Link>
         </div>

@@ -43,7 +43,7 @@ export default function Navbar() {
         <nav className="hidden md:flex items-center gap-6">
           <Link
             href="/plan"
-            className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-foreground-secondary hover:text-primary transition-colors"
+            className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-foreground-secondary hover:text-primary transition-colors cursor-pointer"
           >
             <MapPin className="h-3.5 w-3.5 text-primary" />
             <span>Plan a Trip</span>
@@ -51,7 +51,7 @@ export default function Navbar() {
           
           <Link
             href="/trips"
-            className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-foreground-secondary hover:text-primary transition-colors"
+            className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-foreground-secondary hover:text-primary transition-colors cursor-pointer"
           >
             <FolderOpen className="h-3.5 w-3.5 text-primary" />
             <span>My Trips</span>

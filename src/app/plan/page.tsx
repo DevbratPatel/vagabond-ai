@@ -316,7 +316,7 @@ function PlanTripForm() {
       <div className="pt-4">
         <button
           type="submit"
-          className="flex w-full items-center justify-center gap-2.5 rounded-2xl bg-accent text-accent-foreground px-7 py-4.5 text-base font-extrabold shadow-xl shadow-accent/25 hover:scale-[1.01] active:scale-95 transition-all duration-200 focus:outline-none"
+          className="flex w-full items-center justify-center gap-2.5 rounded-2xl bg-accent text-accent-foreground px-7 py-4.5 text-base font-extrabold shadow-xl shadow-accent/25 hover:brightness-105 active:scale-[0.99] transition-all duration-150 focus:outline-none cursor-pointer select-none"
         >
           <Sparkles className="h-5 w-5" />
           Generate Trip
