@@ -5,10 +5,10 @@
   "private": true,
   "author": "Devbrat Patel (https://github.com/DevbratPatel)",
   "license": "MIT",
-  "homepage": "https://github.com/DevbratPatel/ai-trip-planner#readme",
+  "homepage": "https://github.com/DevbratPatel/vagabond-ai#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DevbratPatel/ai-trip-planner.git"
+    "url": "https://github.com/DevbratPatel/vagabond-ai.git"
   },
   "keywords": [
     "ai",

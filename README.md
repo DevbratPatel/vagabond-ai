@@ -87,8 +87,8 @@ flowchart TD
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/DevbratPatel/ai-trip-planner.git
-cd ai-trip-planner
+git clone https://github.com/DevbratPatel/vagabond-ai.git
+cd vagabond-ai
 ```
 
 ### 3. Install Dependencies
@@ -142,7 +142,7 @@ npm run start
 ## 📂 Project Structure
 
 ```
-ai-trip-planner/
+vagabond-ai/
 ├── src/
 │   ├── app/
 │   │   ├── api/
@@ -178,7 +178,7 @@ ai-trip-planner/
 
 The application is pre-configured for seamless zero-config deployment on [Vercel](https://vercel.com):
 
-1. Fork or push this repository to your GitHub account: `https://github.com/DevbratPatel/ai-trip-planner`.
+1. Fork or push this repository to your GitHub account: `https://github.com/DevbratPatel/vagabond-ai`.
 2. Connect your repository on the [Vercel Dashboard](https://vercel.com/new).
 3. Under **Environment Variables**, add:
    - `OPENAI_API_KEY`
@@ -191,9 +191,9 @@ For detailed custom domain configuration (`vagabond.ai`), refer to [DEPLOYMENT.m
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/DevbratPatel/ai-trip-planner/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/DevbratPatel/vagabond-ai/issues).
 
-1. Fork the Project (`gh repo fork DevbratPatel/ai-trip-planner`)
+1. Fork the Project (`gh repo fork DevbratPatel/vagabond-ai`)
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)

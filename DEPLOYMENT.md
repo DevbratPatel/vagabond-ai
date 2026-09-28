@@ -7,7 +7,7 @@ This guide details the step-by-step instructions to deploy Vagabond AI to **Verc
 ## 1. Prerequisites
 
 Before starting, ensure that:
-1. Your repository is pushed to your GitHub account: `https://github.com/DevbratPatel/ai-trip-planner`.
+1. Your repository is pushed to your GitHub account: `https://github.com/DevbratPatel/vagabond-ai`.
 2. You have your **OpenAI API Key** ready.
 3. You have your **Google Maps API Key** ready.
 
@@ -31,7 +31,7 @@ Follow these steps to deploy your application online:
 ### Step 1: Import Your Repository
 1. Log in to [Vercel](https://vercel.com).
 2. Click **Add New** -> **Project**.
-3. Under *Import Git Repository*, select your GitHub account and click **Import** next to `ai-trip-planner`.
+3. Under *Import Git Repository*, select your GitHub account and click **Import** next to `vagabond-ai`.
 
 ### Step 2: Configure Build Settings
 Vercel automatically detects Next.js configurations. Ensure these default configurations are active:
