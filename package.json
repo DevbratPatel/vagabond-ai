@@ -4,7 +4,7 @@
   "description": "Autonomous AI-Powered Travel Itinerary Planner & Interactive Routing Engine built with Next.js 14, OpenAI GPT-4o, and Google Maps",
   "private": true,
   "author": "Devbrat Patel (https://github.com/DevbratPatel)",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "homepage": "https://github.com/DevbratPatel/vagabond-ai#readme",
   "repository": {
     "type": "git",
